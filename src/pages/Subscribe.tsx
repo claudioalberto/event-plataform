@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Footer } from "../components/Footer";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
-
+import imgCodeMockup from '../../src/assets/images/code-mockup.png';
 
 
 
@@ -68,7 +68,7 @@ export function Subscribe() {
                     </div>
                 </div>
                 <img className="mt-10"
-                    src="/src/assets/images/code-mockup.png" alt="" />
+                    src={imgCodeMockup} alt="" />
 
             </div>
             <Footer />
